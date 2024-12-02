@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script_order.js"></script>
+    </head>
+    <body>
+        <div class = "flex-header">            
+            <div class = "flex-menu">
+                <div class = "name"><h1>SIMPLEFOOD</h1></div>
+                <div class = "flex-nav">
+                    <a class = "nav-button" href = "index.html">Главная</a>
+                    <a class = "nav-button" href = "aboutus.html">О нас</a>
+                    <a class = "nav-button" href = "menu.html">Меню</a>
+                    <a class = "nav-button" href = "order.html">Заказать</a>
+                    <a class = "nav-button" href = "contacts.html">Контакты</a>
+                </div>            
+            </div>
+            <div class = "header-image"></div>
+        </div>
+        <div class = "flex-main">
+            <div class = "flex-group">
+                <div class = "flex-vert">
+                    <div class = "block" id = "order1">
+                        <h2>Сделать заказ:</h2>
+                        <h3>Выбрать товар:</h3>
+                        <select class = "food" id = "select_food">
+                        </select>
+                        <a class = "block-button" href="javascript://" onclick="add_order()">Добавить товар</a>
+                    </div>
+                    <div class = "block" id = "order3">
+                        <h2>Информация для заказа</h2>
+                        <h3>Ваше имя:</h3>
+                        <form class = "name">
+                            <input type="text" name="name">
+                        </form>
+                        <h3>Ваша почта:</h3>
+                        <form class = "email">
+                            <input type="text" name="email">
+                        </form>
+                        <h3>Адрес доставки:</h3>
+                        <form class = "address">
+                            <input type="text" name="address">
+                        </form>
+                    </div>
+                </div>
+                <div class = "flex-vert">
+                    <div class = "block" id = "order2">
+                        <h2>Корзина</h2>
+                        <pre class = "receipt" id = "order_list"></pre>
+                        <p class = "receipt" id = "order_summa">ИТОГО: - - - - -</p>
+                        <a class = "block-button" href="javascript://" onclick="do_order()">Оплатить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "flex-footer">
+            <div>
+                <p>@2021-2022 Сайт сделан студентом СПГУ группы ИАС-21-2 Акопян Артём</p> 
+            </div>
+        </div>
+    </body>
+</html>

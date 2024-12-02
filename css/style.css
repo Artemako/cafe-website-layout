@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#4b494a;
+}
+
+/*header*/
+
+div.flex-header{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    background-image: url(../pic/background.png);
+    background-size: auto 310px;
+	background-repeat:repeat-x;
+	background-color:#4b494a;
+}
+
+div.flex-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+	width: 886px;
+    background-color: #403d2b;
+}
+
+div.name{
+    margin-left: 12px;
+    color: #C2D366;
+}
+
+/*
+div.name h1 span {
+    color: #ffffff;
+}
+*/
+
+div.flex-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 12px;
+}
+
+a.nav-button{
+    display: inline-flex;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 7px;
+    margin-left: 12px;
+    background-color: #C2D366;
+    color: #403d2b;
+    border-radius: 6px;
+}
+
+a.nav-button:hover{
+    background-color: #403d2b;
+    color: #C2D366;
+}
+
+div.header-image {
+    width: 940px;
+    height: 300px;
+    background-image: url(../pic/house.png);
+    background-repeat: no-repeat;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+/*main*/
+
+div.flex-main{
+    display: flex;
+    background-color: #4b494a;
+    flex-direction: column;    
+    align-items: center;        
+}
+
+div.flex-group{
+    display: flex;
+    justify-content: space-between;
+    width: 886px;
+    margin-top: 12px;
+}
+
+div.flex-vert{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+div.flex-vert div:not(:last-child){
+    margin-bottom: 12px;
+}
+
+div.block{
+    border: 12px solid #ae8245;
+    padding: 12px;
+    margin: 0px 6px 0px 6px;
+    background-color: #403d2b;
+    color: #ffffff;
+}
+
+div.block img.full{
+    margin: -12px -12px -16px -12px;
+}
+
+h2, h3{
+    color: #C2D366;
+    white-space: nowrap;
+    margin-bottom: 6px;
+}
+
+p.main {
+    text-align: justify;
+}
+
+p.receipt, p.receipt s{
+    font-family:'Courier New', Courier, monospace;
+    white-space: nowrap;
+    text-align: left;
+}
+
+pre.receipt{
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+a.block-button{
+    display: inline-flex;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 7px;
+    margin-top: 6px;
+    background-color: #C2D366;
+    color: #403d2b;
+    border-radius: 6px;
+}
+
+a.block-button:hover{
+    background-color: #403d2b;
+    color: #C2D366;
+}
+
+ul, ol {
+    margin-left: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+iframe {
+    margin-top: 6px;
+}
+
+select.food {
+    height: 24px;
+    width: 300px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+form input{
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding-left: 6px;
+    height: 24px;
+    width: 294px;
+}
+
+#main3 img {
+    height: 265px;
+}
+
+#main4 img {
+    height: 265px;
+}
+
+#menu1 {
+    width: 400px;
+}
+
+#menu2 img {
+    width: 400px;
+}
+
+#menu3 img {
+    width: 380px;
+}
+
+#menu4 {
+    width: 420px;
+}
+
+#menu5 {
+    width: 400px;
+}
+
+#menu6 img {
+    width: 400px;
+}
+
+#menu7 img {
+    width: 400px;
+}
+
+#menu8 {
+    width: 400px;
+}
+
+#menu9 {
+    width: 400px;
+}
+
+#menu10 img{
+    width: 400px;
+}
+
+#aboutus1 img{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#contacts2 {
+    height: min-content;
+}
+
+#contacts3 img{
+    width: 290px;
+}
+
+#order2 {
+    width: 400px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.social a {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+    margin-right: 12px;
+	text-align: center;
+	color: #ffffff;
+	background: #C2D366;
+    border: #C2D366 1px solid;
+	border-radius: 6px;
+}
+.social a:hover {
+    background-color: #403d2b;
+    color: #C2D366;
+}
+
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+
+/*footer*/
+
+div.flex-footer{
+    display: flex;
+    background-color: #4b494a;
+    flex-direction: column;    
+    align-items: center;
+    padding: 12px;
+    margin-top: 12px;
+    color: #C2D366;
+}
+
+/*admin*/
+#table_select{
+    border-collapse: collapse;
+    border: #ffffff 1px solid;
+}
+#table_select th{
+    min-width: 200px;
+    padding: 5px;
+}
+#table_select td{
+    border-collapse: collapse;
+    padding: 5px;
+    height: 10px;
+    border: #ffffff 1px solid;
+}
